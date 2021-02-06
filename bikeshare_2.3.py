@@ -53,7 +53,7 @@ def get_filters():
     
     day = ''
     print('\nPlease choose ONE day of the week from Monday to Saturday or "all".')
-    print('\nAccepted input: Full name of month or all in title or lower case e.g. "Tuesday" or "tuesday".')
+    print('\nAccepted input: Full name of day or all in title or lower case e.g. "Tuesday" or "tuesday".')
     
     while day not in DAY_DATA:
         day = str(input('Enter a day or all: ')).lower()
